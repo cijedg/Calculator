@@ -2,7 +2,6 @@ import Interfaces.*;
 
 public class Calculator {
 
-    //private static Interfaces.Supplier supplier;
     static Supplier<Calculator> instance = Calculator::new;
 
     BinaryOperator<Integer> plus = (x, y) -> x + y;
